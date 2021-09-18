@@ -1,0 +1,141 @@
+@import url("https://fonts.googleapis.com/css?family=Lora:regular,400,600,700&display=swap&subset=cyrillic-ext");
+@font-face {
+    font-family: "Red October";
+    src: url("../fonts/RedOctober.woff2") format("woff2"),
+        url("../fonts/RedOctober.woff") format("woff");
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Red October";
+    src: url("../fonts/RedOctoberLight.woff2") format("woff2"),
+        url("../fonts/RedOctoberLight.woff") format("woff");
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+li {
+    list-style: none;
+}
+
+a,
+a:visited {
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: none;
+}
+h1,h2,h3,
+h4,h5,h6 {
+    font-weight: inherit;
+    font-size: inherit;
+}
+
+img {
+    vertical-align: top;
+}
+
+html {
+    font-size: 25px;
+}
+
+body {
+    font-family: "Lora", serif;
+    line-height: 1;
+}
+
+h1,h2,h3{
+    text-align: center;
+
+}
+
+h1 {
+    font-size: 50px;
+    font-style: oblique;
+    font-weight: 700;
+    text-decoration: underline;
+    color: #646262;
+    line-height: 2;
+}
+
+h2 {
+    font-size: 40px;
+    font-style: italic;
+    font-weight: 600;
+    line-height: 2;
+    text-decoration: underline overline;
+    color: #d36f12;
+}
+
+.list {
+    font-size: 50px;
+    font-family: "Red October";
+    font-weight: normal;
+    text-align: justify;
+    color: #b41d29de;
+    text-transform: lowercase;
+    text-shadow: 1px 3px 1px #b4636ade;
+}
+
+h3 {
+    font-size: 35px;
+    font-weight: bold;
+    text-align: center;
+    text-transform: lowercase;
+}
+
+.paragraph_1 {
+    font-size: 30px;
+    text-indent: 50px;
+    line-height: 1;
+} 
+
+.paragraph_1 span {
+    font-family: "Red October";
+    font-weight: 300;
+    color: #ad0606be;
+
+}
+
+.paragraph_2 {
+    text-indent: 50px;
+    line-height: 1;
+    letter-spacing: 2px;
+    font-style: italic;
+}
+
+.paragraph_2 span {
+    text-decoration: line-through;
+}
+
+.paragraph_2 ul {
+    text-decoration: underline;
+    text-transform: uppercase;
+    color: #991a1a;
+}
+
+.paragraph_3 {
+    font-family: "Lora";
+    font-weight: 700;
+    white-space: normal;
+}
+
+.help {
+    font-family: "Red October";
+    font-size: 40px;
+    text-align: center;
+    line-height: 2;
+    color: #ce1212;
+}
